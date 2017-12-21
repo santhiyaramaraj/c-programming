@@ -1,18 +1,16 @@
+//reverse string
 #include<stdio.h>
 int main()
 {
 	int l,i,j;
-	char s[100],t;
+	char s[100],s1[100];
 	gets(s);
 	printf("%s",s);
 	l=strlen(s);
-	while(i<j)
+	for(i=0;i<l;i++)
 	{
-		t=s[i];
-		s[j]=s[i];
-		s[j]=t;
-		i++;
-		j--;
+		s1[i]=s[l-1-i];
 	}
-	printf("%d",s);
+	s1[l]='\0';
+	printf("\n%s\n",s1);
 }
