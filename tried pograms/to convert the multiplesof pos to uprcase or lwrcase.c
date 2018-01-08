@@ -11,7 +11,7 @@
      switch(ch)
      {
        case 1:
-         for(i=1;i<l;i+=p)
+         for(i=p;i<l;i+=p)
          {
          	//printf("%d",i);
            if(s[i]>='A' && s[i]<='Z')
@@ -28,7 +28,7 @@
          printf("%s",s);
            break;
        case 2:
-         for(i=1;i<l;i+=p)
+         for(i=p;i<l;i+=p)
          {
          	//printf("%d",i);
            if(s[i]>='a' && s[i]<='z')
