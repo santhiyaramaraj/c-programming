@@ -7,7 +7,7 @@ o/p=Rti
 #include<string.h>
 int main(void) {
 	// your code goes here
-	char s[1000]="Winter";
+	char s[1000]="Winter";		//scanf("%s",s);
 	char s1[1000],r[1000];
 	int i,j=1,n;
 	int l=strlen(s);
@@ -28,7 +28,7 @@ int main(void) {
 	{
 	r[j]=s1[n-j];
 	}
-	for(i=0;i<n;i++)		//captilise the first letter
+	for(i=1;i<n;i++)		//captilise the first letter
 	{
 		if(r[i]>='a'&& r[i]<='z')
 		{
