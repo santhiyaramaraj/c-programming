@@ -19,6 +19,7 @@ int main(void) {
 			s1[j]=s[i];
 			j++;
 			n=j;
+		
 		}
 		
 	}
@@ -27,11 +28,22 @@ int main(void) {
 	{
 	r[j]=s1[n-j];
 	}
-	for(i=0;i<n;i++)
+	for(i=0;i<n;i++)		//captilise the first letter
+	{
+		if(r[i]>='a'&& r[i]<='z')
+		{
+			r[i]=r[i]-32;
+		}
+		else
+		;
+		break;
+	}
+	for(i=1;i<n;i++)
 	{
 		printf("%c",r[i]);
 	}
 	
 	
-	return 0;
+	
+return 0;
 }
