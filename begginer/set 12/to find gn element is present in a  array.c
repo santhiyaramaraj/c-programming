@@ -6,7 +6,7 @@
 int main(void) {
 	// your code goes here
 	int a[10000],k,n,flag=0;
-	scanf("%d %d",&k,&n);
+	scanf("%d %d",&n,&k);
 	for(int i=0;i<n;i++)
 	{
 		scanf("%d",&a[i]);
