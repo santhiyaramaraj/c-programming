@@ -3,7 +3,7 @@
 int main(void) {
 	// your code goes here
 	long int a[100000];
-	long int i,j,n;
+	long int i,n,j;
 	scanf("%ld",&n);
 	for(i=0;i<n;i++)
 	{
